@@ -1,0 +1,38 @@
+{
+  "douyin_api": {
+    "app_key": "YOUR_DOUYIN_APP_KEY",
+    "app_secret": "YOUR_DOUYIN_APP_SECRET",
+    "shop_id": "YOUR_SHOP_ID",
+    "base_url": "https://openapi-fxg.jinritemai.com",
+    "sync_interval_hours": 1,
+    "history_days": 90
+  },
+  "feishu": {
+    "webhook_ops_group": "https://open.feishu.cn/open-apis/bot/v2/hook/YOUR_OPS_WEBHOOK",
+    "webhook_host_group": "https://open.feishu.cn/open-apis/bot/v2/hook/YOUR_HOST_WEBHOOK"
+  },
+  "diagnostic": {
+    "conversion": {
+      "threshold_pct": 0.8,
+      "weekly_decline_max": 0.003
+    },
+    "click": {
+      "threshold_pct": 0.8,
+      "completion_rate_min": 0.30
+    },
+    "advertising": {
+      "roi_min": 1.5,
+      "cpm_max": 25
+    },
+    "repurchase": {
+      "rate_min_30d": 0.15,
+      "refund_rate_max": 0.08
+    },
+    "inventory_days_alert": 3
+  },
+  "schedule": {
+    "daily_report": "00:30",
+    "weekly_report": "monday 08:00",
+    "monthly_report": "1 08:00"
+  }
+}
