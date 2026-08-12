@@ -1,0 +1,11 @@
+{
+  "name": "卡宾主播讲货助手",
+  "short_name": "卡宾讲货助手",
+  "description": "卡宾主播男装讲货知识库：风格、版型、面料、工艺、深度话术与镜头证明。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f1ec",
+  "theme_color": "#111111"
+}
